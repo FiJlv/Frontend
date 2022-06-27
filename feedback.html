@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html> 
+<head>
+
+  <meta charset = "UTF-8"/>
+  <meta name="viewport" content="width=device-width">
+
+  <meta  name="keywords" content ="блог об айти"/>
+  <meta  name="description" content ="it, itblog"/>
+
+  <link href = "css/style.css" rel="stylesheet" type ="text/css"/>
+  <link href ="img/itshnik.png" rel="shortcut icon" type="image/x-icon"/>
+  <title>InfoTechBlog</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src ="javascript/script.js"></script>
+	
+</head>
+
+	<body>
+
+	<div class="wrapper">
+		 <div class="content">
+		 	<header class = "header">
+				<div class = 'container'>
+					<div class = "header__body">
+						<a href = "index.html" class="header__logo">
+							<img src = "img/logo.png" alt = "">
+						</a>
+						<div class = "header__burger">
+							<span></span>
+						</div>
+						<nav class = "header__menu">
+							<ul class = "header__list">
+								<li>
+									<a href = "" class = "header__link">	
+										Главная
+									</a>
+								</li>
+								<li>
+									<a href = "" class = "header__link">
+										IT-индустрия
+									</a>
+								</li>
+								<li>
+									<a href = "" class = "header__link">
+										Гаджеты
+									</a>
+								</li>
+								<li>
+									<a href = "" class = "header__link">
+										Игры и приложения
+									</a>
+								</li>
+								<li>
+									<a href = "" class = "header__link">	
+										Все о железе
+									</a>
+								</li>
+								<li>
+									<a href = "" class = "header__link">
+										Обратная связь
+									</a>
+								</li>
+								<li>
+									<a href = "#" class="telimg" >
+										<img src= "img/tel.png" width="20" height="20"alt = "" >
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>	
+		     	 </div>
+			</header>
+
+			<div class="form">
+				<form action="#" id="form" class="form__body">
+					<h1 class="form__title">Обратная связь</h1>
+					<div class="form__item">
+						<label for="formName" class="form__label ">Имя*:</label>
+						<input id="formName" type="text" name="name" class="form__input _req">
+					</div>
+					<div class="form__item">
+						<label for="formEmail" class="form__label">E-mail*:</label>
+						<input id="formEmail" type="text" name="email" class="form__input 
+						_req _email">
+					</div>
+					<div class="form__item">
+						<label for="formMessage" class="form__label">Сообщение:</label>
+						<textarea id="formMessage" name="message" class="form__input">
+							
+						</textarea>
+					</div>
+					<button type="submit" class="form__button">Отправить</button>
+					
+				</form>
+			</div>
+
+		</div>
+
+		<footer class="footer">
+		 	<div class='container'>
+		 		Все права защищены © 2020
+		 	</div>
+		 </footer>
+
+	</div>
+</body>
+
+</html>
